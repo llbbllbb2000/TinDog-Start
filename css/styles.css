@@ -76,7 +76,7 @@ p {
 
 /* Features */
 #features {
-    margin: 1% 3%;
+    margin: 5% 3%;
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-    padding: 20px 10px;
+    padding: 20px 10px 0;
     background-color: #ef8172;
     color: #fff;
     text-align: center;
@@ -106,7 +106,7 @@ p {
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
-    margin: 5%;
+    margin: 5% 0 3%;
 }
 
 .carousel-item {
@@ -122,4 +122,15 @@ p {
 .press-logo {
     width: 15%;
     margin: 0px 100px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2% 3%;
 }
