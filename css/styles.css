@@ -37,7 +37,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 12%;
+    padding: 3% 12% 7%;
 }
 
 /* Navigator Bar */
@@ -50,6 +50,10 @@ p {
     font-family: "Ubuntu", sans-serif;
     font-size: 3.5rem;
     font-weight: bold;
+}
+
+.nav-item-list {
+    padding-right: 10%;
 }
 
 .nav-link{
@@ -68,16 +72,19 @@ p {
 /* Title Image*/
 
 .title-image {
-    width: 50%;
+    height: 140%;
     transform: rotate(20deg);
     margin-top: 10%;
-    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
 }
 
-/* Features */
+/* Features Section */
 #features {
-    margin: 5% 3%;
+    padding: 5% 3%;
     text-align: center;
+    position: relative;
+    background-color: #fff;
 }
 
 .feature-img {
@@ -91,7 +98,7 @@ p {
 }
 
 .feature-description {
-    padding: 0 20%;
+    padding: 5% 20%;
 }
 
 /* Testimonial Section */
